@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Bubbadms",
+    "slug": "Bubbadms",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bubbadms",
+      "buildNumber": "1.0.8",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We require access to Camera to Scan Barcode and Click Picture to Auto-fill required data into the form.",
+        "NSPhotoLibraryUsageDescription": "Application Required to Access to Your Photos to Upload a Profile Picture."
+      }
+    },
+    "android": {
+      "package": "com.bubbadms",
+      "versionCode": 8,
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": []
+    },
+    "description": "",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
